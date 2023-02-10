@@ -24,7 +24,11 @@ $cfg['Servers'][$i]['AllowNoPassword'] = true;
 $cfg['Lang'] = '';
 
 /* Bind to the localhost ipv4 address and tcp */
-$cfg['Servers'][$i]['host'] = '127.0.0.1';
+$cfg['Servers'][$i]['host'] = 'aiap-ecatalog-server.mysql.database.azure.com';
+$cfg['Servers'][$i]['post'] = '3306';
+$cfg['Servers'][$i]['user'] = 'ojxxknzeqm';
+$cfg['Servers'][$i]['password'] = '312Y53Z75RCV18BE$';
+$cfg['Servers'][$i]['auth_type'] = 'config';
 $cfg['Servers'][$i]['connect_type'] = 'tcp';
 
 /* User for advanced features */
